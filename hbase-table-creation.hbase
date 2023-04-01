@@ -1,0 +1,7 @@
+# Create an HBase table named mytable
+hbase shell
+create 'mytable', 'cf1', 'cf2'
+
+# Insert data into the table
+put 'mytable', 'row1', 'cf1:col1', 'value1'
+put 'mytable', 'row1', 'cf2:
